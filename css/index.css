@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+header.sticky {
+    padding: 1.5rem 3rem;
+    background-color: #fff;
+}
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+header.sticky .logo,
+header.sticky ul li a {
+    color: #000;
+}
+.hero {
+    background-image: url("../img/background/yellow.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main-judul-wrap {
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem;
+    background-color: #232323;
+    border-radius: 1rem;
+}
+.main-judul {
+    color: white;
+}
+.about {
+    background-color: #FBD46D;
+    height: fit-content;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.about .col-8 {
+    padding-right: 3rem;
+}
+.about .judul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.about .line {
+    height: 2rem;
+    width: 0.2rem;
+    background-color: #232323;
+    margin-right: 1rem;
+}
+.about .text {
+    color: #232323;
+}
+.about .deskripsi {
+    color: #232323;
+    text-align: justify;
+} 
+.product {
+    background-color: hsl(181, 28%, 43%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 5rem 0;
+}
+.product .judul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.product .line {
+    height: 2rem;
+    width: 0.2rem;
+    background-color: white;
+    margin-right: 1rem;
+}
+.product .text {
+    color: white;
+}
+.product .row-wrap {
+    height: fit-content;
+    min-height: 10rem;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+.product .col-12 {
+    padding: 0.5rem;
+}
+.product .item-wrap {
+    height: fit-content;
+    min-height: 10rem;
+    background-color: #8CCBBE;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.product .justify-content-end .col-3 {
+    height: fit-content;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    background-color: aliceblue;
+}
+
+
+.contact {
+    min-height: 80vh;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact .subscribe-wrap {
+    padding: 1rem;
+    background-color: #FFD369;
+    border-radius: 1rem;
+    color: #232323;
+}
+.footer {
+    min-height: 40vh;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+}
+.footer .col-1 {
+    display: flex;
+    align-items: center;
+}
+.footer .item-wrap {
+    height: 4rem;
+    width: 4rem;
+    padding: 0.7rem 0;
+    text-align: center;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+}
+.footer img {
+    width: 2.5rem;
+    height: auto;
+}

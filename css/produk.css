@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+header.sticky {
+    padding: 1.5rem 3rem;
+    background-color: #fff;
+}
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+header.sticky .logo,
+header.sticky ul li a {
+    color: #000;
+}
+.hero {
+    background-image: url("../img/background/produk.jpg");
+    background-attachment: fixed;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main-judul-wrap {
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem 2rem;
+    background-color: #232323;
+    border-radius: 1rem;
+}
+.main-judul {
+    color: white;
+}
+.hero .category {
+    background-color: #EEEEEE;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    color: #232323;
+    display: flex;
+    justify-content: center;
+}
+.kaos {
+    padding: 3rem 0;
+    min-height: 100vh;
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+}
+.kaos .line {
+    height: 3.7rem;
+    width: 0.5rem;
+    background-color: #EEEEEE;
+    margin-right: 2rem;
+}
+.kaos .subjudul {
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+.kaos .row-wrap {
+    width: 100%;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+.kaos .col-4 {
+    padding: 0.5rem;
+}
+.kaos .item-wrap {
+    height: fit-content;
+    min-height: 10rem;
+    background-color: #8CCBBE;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.kaos .item-wrap img {
+    width: 100%;
+    height: auto;
+}
+.kaos .item-wrap .nama {
+    font-weight: 700;
+    font-size: 40px;
+}
+.kaos .item-wrap .tipe {
+    font-weight: 500;
+}
+.kaos .item-wrap .harga {
+    font-weight: 500;
+    color:crimson;
+}
+.sweater {
+    min-height: 100vh;
+    padding: 3rem 0;
+    background-color: #393E46;
+    display: flex;
+    align-items: center;
+}
+.sweater .line {
+    height: 3.7rem;
+    width: 0.5rem;
+    background-color: #EEEEEE;
+    margin-right: 2rem;
+}
+.sweater .subjudul {
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+}
+.sweater .row-wrap {
+    width: 100%;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+.sweater .col-4 {
+    padding: 0.5rem;
+}
+.sweater .item-wrap {
+    height: fit-content;
+    min-height: 10rem;
+    background-color: #8CCBBE;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.sweater .item-wrap img {
+    width: 100%;
+    height: auto;
+}
+.sweater .item-wrap .nama {
+    font-weight: 700;
+    font-size: 40px;
+}
+.sweater .item-wrap .tipe {
+    font-weight: 500;
+}
+.sweater .item-wrap .harga {
+    font-weight: 500;
+    color:crimson;
+}
+
+.jaket {
+    padding: 3rem 0;
+    min-height: 100vh;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+}
+.jaket .line {
+    height: 3.7rem;
+    width: 0.5rem;
+    background-color: #222831;
+    margin-right: 2rem;
+}
+.jaket .subjudul {
+    font-weight: 700;
+    font-size: 36px;
+    color: #222831;
+}
+.jaket .row-wrap {
+    width: 100%;
+    background-color: #393E46;
+    padding: 2rem;
+}
+.jaket .col-4 {
+    padding: 0.5rem;
+}
+.jaket .item-wrap {
+    height: fit-content;
+    min-height: 10rem;
+    background-color: #8CCBBE;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.jaket .item-wrap img {
+    width: 100%;
+    height: auto;
+}
+.jaket .item-wrap .nama {
+    font-weight: 700;
+    font-size: 40px;
+}
+.jaket .item-wrap .tipe {
+    font-weight: 500;
+}
+.jaket .item-wrap .harga {
+    font-weight: 500;
+    color:crimson;
+}
+.contact {
+    min-height: 80vh;
+    background-color: #444444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact .subscribe-wrap {
+    padding: 1rem;
+    background-color: #FFD369;
+    border-radius: 1rem;
+    color: #232323;
+}
+.footer {
+    min-height: 40vh;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+}
+.footer .col-1 {
+    display: flex;
+    align-items: center;
+}
+.footer .item-wrap {
+    height: 4rem;
+    width: 4rem;
+    padding: 0.7rem 0;
+    text-align: center;
+    background-color: #EFEFEF;
+    border-radius: 50%;
+}
+.footer img {
+    width: 2.5rem;
+    height: auto;
+}
